@@ -9,6 +9,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Service from "./pages/Service";
 import UseEffect from "./hooks/UseEffect";
+import Form from "./component/Form";
+import Todo from "./component/Todo";
+
 
 const App=()=>{
   return(
@@ -27,6 +30,10 @@ const App=()=>{
        <Route path="/service" element={<Service/>}/>
        <Route path="/useState" element={<UseState/>}/>
        <Route path="/UseEffect" element={<UseEffect/>}/>
+       <Route path="/Form" element={<Form/>}/>
+       <Route path="/Todo" element={<Todo/>}/>
+
+
     </Routes>
     </>
     )
